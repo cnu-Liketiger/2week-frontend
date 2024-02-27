@@ -1,0 +1,163 @@
+#top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: orangered;
+  
+}
+
+#top_left {
+  position: absolute;
+  left: 5%;
+  top: 25%;
+}
+
+.LIKETIGER {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: x-large;
+}
+
+.chacha {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: smaller;
+}
+
+#About_me {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: medium;
+}
+
+#Hobby {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: medium;
+}
+
+#Goals {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: medium;
+}
+
+#top_right {
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  left: 70%;
+  right: 5%;
+  top: 25%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#bottom_2 {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+}
+
+#bottom_left {
+  position: absolute;
+  right: 50%;
+  top: 30%;
+  margin-right: 30px;
+  background-color: lightgrey;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  background-image: url("../images/about-me-chacha.png");
+  background-size: 90%;
+}
+
+#bottom_right {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  margin-left: 30px;
+}
+
+.self-introduction {
+  line-height: 50%;
+  font-size: smaller;
+}
+
+.bottom_bottom {
+  line-height: 30%;
+}
+
+#bottom_3 {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+#bottom_3_top {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: xx-large;
+    position: absolute;
+    left: 49.5%;
+}
+
+#bottom_3_bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.goal_box {
+    width: 50px;
+    margin: 100px;
+    text-align: center;
+}
+
+.box_top {
+    background-color: orangered;
+    width: 150px;
+    height: 25px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid orangered;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.box_bottom {
+    background-color: white;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid orangered;
+    margin: 0;
+}
+
+b {
+  color: orangered;
+}
+
+.goal_box p {
+  display: inline-block;
+}
