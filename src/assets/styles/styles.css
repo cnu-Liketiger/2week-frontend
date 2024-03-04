@@ -1,0 +1,96 @@
+/* 
+   styles.css - About me css
+*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#top_container {
+    display: flex;
+    height: 90px;
+    background-color: #FF7710;
+    align-items: center;
+}
+
+#page_name1 {
+    font-size: 37px;
+    margin-left: 20px;
+}
+
+#page_name2 {
+    font-size: 17px;
+}
+
+#page_name1,
+#page_name2 {
+    font-weight: 1000;
+    display: inline-block;
+    /*가로 배열*/
+}
+
+#top_container li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 27px;
+}
+
+#category1 {
+    margin-left: 770px;
+    margin-right: 50px;
+    font-weight: 1000;
+}
+
+#category2 {
+    margin-right: 50px;
+}
+
+#bottom_container {
+    margin-top: 120px;
+    display: flex;
+}
+
+#left_container {
+    height: 400px;
+    width: 400px;
+    margin-left: 200px;
+    background-color: #EBEBEB;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+#chacha {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#right_container {
+    margin-left: 40px;
+    margin-top: 120px;
+}
+
+.texts {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 0.5;
+    /* 텍스트 간격을 줄입니다. */
+}
+
+#right_container_icons {
+    display: flex;
+    margin-left: 35px;
+}
+
+.icons {
+    margin-left: 5px;
+}
+a {
+    color: inherit; /* 부모 요소의 색상을 상속받음 */
+    text-decoration: none; /* 밑줄 제거 */
+}
+#logo{
+    margin-left: 15px;
+    margin-top: 6px;
+}
