@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+  <title>[202202473] 김예은 | Goals</title>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+
+    #top_container {
+      display: flex;
+      height: 90px;
+      background-color: #FF7710;
+      align-items: center;
+    }
+
+    #page_name1 {
+      font-size: 37px;
+      margin-left: 20px;
+    }
+
+    #page_name2 {
+      font-size: 17px;
+    }
+
+    #page_name1,
+    #page_name2 {
+      font-weight: 1000;
+      display: inline-block;
+      /*가로 배열*/
+    }
+
+    #top_container li {
+      list-style-type: none;
+      display: inline-block;
+      font-size: 27px;
+      justify-content: center;
+    }
+
+    #category1 {
+      margin-left: 770px;
+      margin-right: 50px;
+    }
+
+    #category2 {
+      margin-right: 50px;
+    }
+
+    #category3 {
+      margin-right: 50px;
+      font-weight: 1000;
+    }
+
+    #bottom_container {
+      margin-top: 10px;
+    }
+
+    #bottom_container_text {
+      display: flex; 
+      justify-content: center; 
+      align-items: center;
+      margin-top: 40px;
+    }
+
+    #bottom_container_bottom {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .texts {
+      font-size: 16px;
+      line-height: 0.5;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    a {
+    color: inherit; /* 부모 요소의 색상을 상속받음 */
+    text-decoration: none; /* 밑줄 제거 */
+    }
+    
+    #title{
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+
+    .highlight{
+        font-weight: bold; /* 텍스트를 두껍게 설정 */
+        color: #FF7710; /* 텍스트의 색상을 변경 */
+    }
+    .Commitment, .Challenge, .Companionship{
+      margin-top: 5%;
+      width: 250px;
+      height: 300px;
+      border: 2px solid #FF7710;
+      text-align: center;
+      font-size: 16px;
+      font-weight: bolder;
+      line-height: 0.4;
+    }
+
+    .goals_top {
+      width: 250px;
+      height: 50px;
+      background-color:#FF7710;
+      color: white;
+      font-size: 28px;
+      font-weight: 1000;
+      text-align: center;
+      line-height: 50px;
+    }
+    .contents{
+        margin-top: 70px;
+    }
+    #logo{
+        margin-left: 15px;
+        margin-top: 6px;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <nav id="top_container">
+      <ul>
+        <img id="logo" src="/2week-frontend/src/assets/images/logo.svg" alt="로고">
+        <a href="/2week-frontend/index.html">
+          <li id="category1">About me</li>
+        </a>
+        <a href="/2week-frontend/src/pages/page1.html">
+          <li id="category2">Hobby</li>
+        </a>
+        <a href="/2week-frontend/src/pages/page2.html">
+          <li id="category3">Goals</li>
+        </a>
+      </ul>
+    </nav>
+    <nav id="bottom_container">
+      <section>
+        <div id="bottom_container_text">
+          <h1 id="title">GOALS</h1>
+        </div>
+      </section>
+      <section>
+        <div id="bottom_container_bottom">
+            <section> <!-- section으로 나누어줌, 총 3덩어리 -->
+                <div class="Commitment">
+                  <div class="goals_top">Commitment</div>
+                  <div class="contents">
+                    <p>협업에 있어서</p>
+                    <p>가장 중요한 약속</p>
+                    <p><span class="highlight">정직</span>하게, <span class="highlight">존중</span>하며,</p>
+                    <p><span class="highlight">신뢰</span>를 가지고 임하는</p>
+                    <p>차차가 될 수 있도록!</p>
+                  </div>
+                </div>
+              </section>
+              <section>
+                <div class="Challenge">
+                  <div class="goals_top">Challenge</div>
+                  <div class="contents">
+                    <p><span class="highlight">개척자</span>가 되자!</p>
+                    <p>아이디어에 몰입하여</p>
+                    <p>휼륭한 선택을 해나가는</p>
+                    <p>차차가 되고 싶어요</p>
+                  </div>
+                </div>
+              </section>
+              <section>
+                <div class="Companionship">
+                  <div class="goals_top">Companionship</div>
+                  <div class="contents">
+                    <p><span class="highlight">다양함</span>을 배우고,</p>
+                    <p>존중과 <span class="highlight">배려</span>할 줄 알며</p>
+                    <p>열려있는 <span class="highlight">소통</span>을</p>
+                    <p>할 수 있는 모두의</p>
+                    <p>동료 차차가 될게요</p>
+                  </div>
+                </div>
+              </section>
+        </div>
+      </section>
+    </nav>
+  </main>
+</body>
+
+</html>
